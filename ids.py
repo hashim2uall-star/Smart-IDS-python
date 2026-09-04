@@ -43,4 +43,4 @@ if __name__ == "__main__":
     log_lines = read_log("log.txt")
     failed_ips = analyze_log(log_lines)
     alerts = detect_anomaly(failed_ips)
-    write_report(alerts, "report.txt
+    write_report(alerts, "report.txt")
